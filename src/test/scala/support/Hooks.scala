@@ -2,21 +2,23 @@ package support
 
 import io.cucumber.scala.{EN, ScalaDsl}
 import org.openqa.selenium.WebDriver
-import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.chrome.{ChromeDriver, ChromeOptions}
 
 class Hooks extends ScalaDsl with EN {
 
-  var driver: WebDriver = _
+  val options = new ChromeOptions()
+  options.addArguments("--headless")
+
 
   Before {
     println("Launching browser before scenario...")
-    driver = new ChromeDriver()
-    driver.manage().window().maximize()
+    DriverManager.driver = new ChromeDriver()
+    DriverManager.driver.manage().window().maximize()
   }
 
   After {
     println("Closing browser after scenario...")
-    driver.quit()
+    DriverManager.driver.quit()
   }
 
 }

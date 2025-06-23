@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3096711-03eb-4587-b73d-9df02f3b694d" name="Changes" comment="" />
+    <list default="true" id="a3096711-03eb-4587-b73d-9df02f3b694d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/PracticeForm.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/locators/LoginLocators.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/pages/BasePage.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/pages/LoginPage.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/support/DriverManager.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/background.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login_attempts.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/scenarioOutline.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/user_registration.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/runner/runner.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/runner/runner.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/support/Hooks.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/support/Hooks.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/testdata/Data.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/testdata/Data.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/utils/ConfigReader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/utils/ConfigReader.scala" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,22 +39,25 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2yjHxCvDIZLPlRo66fSmKQjI5tf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/tayyab.butt/Documents/QA academy/QACucumberLessons"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;AfternoonTask&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/tayyab.butt/Documents/QA academy/QACucumberLessons&quot;
   }
-}]]></component>
+}</component>
   <component name="ScalaProjectSettings">
     <option name="migrateConfigurationsNotificationShown" value="true" />
   </component>

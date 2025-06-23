@@ -7,6 +7,7 @@ import org.junit.runner.RunWith
 @CucumberOptions(
   features   = Array("src/test/resources/features"),            // src/test/resources/features
   glue       = Array("stepdefs", "support"),
+  tags       = "@Form or @ Smoke",
   plugin     = Array("pretty",
     "html:target/cucumber-report.html"),
   monochrome = true
