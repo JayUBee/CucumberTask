@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3096711-03eb-4587-b73d-9df02f3b694d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/scala/locators/FormLocators.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/locators/FormSubmittedHeader.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/pages/FormSubmittedPage.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/utils/Autocomplete.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/utils/Dropdown.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/PracticeForm.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/PracticeForm.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/locators/LoginLocators.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/pages/BasePage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/pages/BasePage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/pages/LoginPage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/pages/LoginPage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/stepdefs/StepDefinitions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/stepdefs/StepDefinitions.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/support/DriverManager.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/support/DriverManager.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/support/Hooks.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/support/Hooks.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/testdata/Data.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/testdata/Data.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/utils/Assertion.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/utils/Assertion.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/utils/ScreenCapture.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/utils/ScreenCapture.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/utils/WaitUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/utils/WaitUtils.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +51,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;AfternoonTask&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/tayyab.butt/Documents/QA academy/QACucumberLessons&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.runner.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "AfternoonTask",
+    "last_opened_file_path": "/Users/tayyab.butt/Documents/QA academy/QACucumberLessons"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="JUnit.SmokeTestRunner">
+    <configuration name="SmokeTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QACucumberLessons.qacohortproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.SmokeTestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QACucumberLessons.qacohortproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SmokeTestRunner" />
+        <item itemvalue="JUnit.TestRunner" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ScalaProjectSettings">
     <option name="migrateConfigurationsNotificationShown" value="true" />
   </component>

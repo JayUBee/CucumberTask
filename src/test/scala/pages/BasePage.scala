@@ -1,11 +1,16 @@
 package pages
 
-import org.openqa.selenium.{By, WebDriver, WebElement}
+import org.openqa.selenium.{By, JavascriptExecutor, WebDriver, WebElement}
 import support.DriverManager
 import utils.ConfigReader
 
 trait BasePage {
-  val driver: WebDriver = DriverManager.driver
+  def driver: WebDriver = DriverManager.driver
+
+  def jsExecutorLaunch(): JavascriptExecutor = {
+    val jsExecutor: JavascriptExecutor = driver.asInstanceOf[JavascriptExecutor]
+    jsExecutor
+  }
 
   def browserLaunch(): Unit = {
     val testUrl = ConfigReader.get("base.url")
@@ -32,5 +37,8 @@ trait BasePage {
 
   def getText(selector: By): String =
     driver.findElement(selector).getText
+
+  def getWebElement(selector: By): WebElement =
+    driver.findElement(selector)
 
 }
