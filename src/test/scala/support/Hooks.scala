@@ -1,22 +1,31 @@
 package support
 
-import io.cucumber.scala.{EN, ScalaDsl}
+import io.cucumber.scala.{EN, ScalaDsl, Scenario}
 import org.openqa.selenium.WebDriver
-import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.chrome.{ChromeDriver, ChromeOptions}
+import utils.ScreenCapture.takeScreenshot
+
+import java.io.File
 
 class Hooks extends ScalaDsl with EN {
 
-  var driver: WebDriver = _
+  val options = new ChromeOptions()
+  options.addArguments("--headless")
+
 
   Before {
     println("Launching browser before scenario...")
-    driver = new ChromeDriver()
-    driver.manage().window().maximize()
+    DriverManager.driver = new ChromeDriver()
+    DriverManager.driver.manage().window().maximize()
   }
 
-  After {
+  After { scenario: Scenario =>
+    if (scenario.isFailed) {
+      println("Scenario failed! Taking screenshot...")
+      val screenshotFile: File = takeScreenshot(DriverManager.driver, "/Users/tayyab.butt/Documents/Screenshots/", s"${scenario.getName}_failure")
+      println(s"Saved screenshot to: ${screenshotFile.getPath} - ✅")
+    }
     println("Closing browser after scenario...")
-    driver.quit()
+    DriverManager.quitDriver()
   }
-
 }
