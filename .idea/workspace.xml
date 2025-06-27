@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3096711-03eb-4587-b73d-9df02f3b694d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/scala/locators/FormLocators.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/locators/FormSubmittedHeader.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/pages/FormSubmittedPage.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/utils/Autocomplete.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/utils/Dropdown.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/PracticeForm.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/PracticeForm.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/locators/LoginLocators.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/pages/BasePage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/pages/BasePage.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/pages/LoginPage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/pages/LoginPage.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/stepdefs/StepDefinitions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/stepdefs/StepDefinitions.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/support/DriverManager.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/support/DriverManager.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/support/Hooks.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/support/Hooks.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/testdata/Data.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/testdata/Data.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/utils/Assertion.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/utils/Assertion.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/utils/ScreenCapture.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/utils/ScreenCapture.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/utils/WaitUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/utils/WaitUtils.scala" afterDir="false" />
-    </list>
+    <list default="true" id="a3096711-03eb-4587-b73d-9df02f3b694d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +34,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.SmokeTestRunner.executor": "Run",
+    "JUnit.TestRunner.executor": "Run",
     "JUnit.runner.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
